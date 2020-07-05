@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: wheat;
+}
+
+h1 {
+	text-align: center;
+}
+
+#wrapper{
+	margin: 0 auto;
+}

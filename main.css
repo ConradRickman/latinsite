@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: wheat;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+ul {
+	font-size: 25px;
+	list-style-type: none;
+	padding-left: 0;
+	text-align: center;
+}
+
+p{
+	text-align: center
+}

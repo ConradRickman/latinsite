@@ -13,18 +13,10 @@
 		}
 		article {
 			box-sizing: border-box;
-			float: right;
-			width: 73%;
-			height: 580px;
-			background-color: wheat;
-			padding-bottom: 240px;
-			background-image: url("images/romanteacher.gif");
-			background-repeat: no-repeat;
-			background-position: bottom;
-			margin: 7px;
-			border: solid;
-			padding-left: 10px;
-			padding-right: 10px;
+			clear: both;
+			width: 100%;
+			border: 2px solid;
+			padding-left: 20px;
 		}
 		aside {
 			box-sizing: border-box;
@@ -37,11 +29,7 @@
 			padding-bottom: 50px;
 		}
 		footer {
-			text-align: center;
-			width: 100%;
-			background-color: lightgrey;
-			clear: both;
-			padding: 1px;
+			
 		}
 		.container {
 		  position: relative;
@@ -51,24 +39,31 @@
 		  width: 550px;
 		  height: auto;
 		}
-		.tab {
-			  overflow: hidden;
-		}
-		.tab button {
-		  background-color: inherit;
-		  float: right;
-		  cursor: pointer;
-		  padding: 14px 16px;
-		  transition: 0.3s;
-		  font-size: 17px;
-		}
-		.tab button:hover {
-		  background-color: antiquewhite;
+
+		.nav {
+			margin: 30px;
+			margin-right: 0px;
 		}
 
-		.tab button.active {
-		  background-color: #ccc;
+		a {
+			overflow: hidden;
+			text-decoration: none;
+			color: #000000;
+  			border: 2px solid #000000;
+			float: right;
+			cursor: pointer;
+			padding: 15px;
+			padding-left: 25px;
+			padding-right: 25px;
+			transition: 0.3s;
+			font-size: 22px;	
 		}
+
+		a:hover {
+			background-color: antiquewhite;
+		}
+
+
 		@media (max-width: 1100px) {
   			aside, article {
    			 width: 100%;

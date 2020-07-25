@@ -14,19 +14,18 @@
 			
 		}
 
-		h2{
+		.welcome{
+			text-align: center;
+			float: right;
+		}
+
+		.welcome h2{
 			text-align: center;
 			font-family:"WalterTurncoat Regular";
 			color:rebeccapurple;
 			padding-right: 400px;
 			padding-top: 50px;
 		}
-
-		.welcome{
-			text-align: center;
-			float: right;
-		}
-
 
 			.headshot{
 				float: left;

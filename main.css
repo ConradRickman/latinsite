@@ -14,12 +14,9 @@
 			
 		}
 
-		.welcome{
-			text-align: center;
-			float: right;
-		}
 
 		.welcome h2{
+			float: right;
 			text-align: center;
 			font-family:"WalterTurncoat Regular";
 			color:rebeccapurple;

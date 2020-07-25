@@ -4,73 +4,83 @@
 	body {
 			background-color: wheat
 		}
-		h1 {
-			color:rebeccapurple;
-			font-family: "WalterTurncoat Regular";
-		}
-		p {
-			font-size: 18px;
-		}
+
 		article {
 			box-sizing: border-box;
-			clear: both;
+			float: right;
 			width: 100%;
 			border: 2px solid;
-			padding-left: 20px;
-		}
-		aside {
-			box-sizing: border-box;
-			background-color:brown;
-			float: left;
-			width: 25%;
-			height: 595px;
-			padding: 5px;
-			padding-top: 50px;
-			padding-bottom: 50px;
-		}
-		footer {
+			text-align: center
 			
 		}
-		.container {
-		  position: relative;
-		}
 
-		img { 
-		  width: 550px;
-		  height: auto;
-		}
-
-		.nav {
-			margin: 30px;
-			margin-right: 0px;
-		}
-
-		a {
-			overflow: hidden;
-			text-decoration: none;
-			color: #000000;
-  			border: 2px solid #000000;
+		.welcome{
+			text-align: center;
 			float: right;
-			cursor: pointer;
-			padding: 15px;
-			padding-left: 25px;
-			padding-right: 25px;
-			transition: 0.3s;
-			font-size: 22px;	
+		}
+		h2{
+			text-align: center;
+			font-family: "WalterTurncoat Regular";
+			color:rebeccapurple;
+			padding-right: 400px;
+			padding-top: 50px;
 		}
 
-		a:hover {
-			background-color: antiquewhite;
-		}
+			.headshot{
+				float: left;
+				padding: 50px;
+				padding-bottom: 150px;
+			}
+
+			aside {
+
+			}
+			footer {
+
+			}
+			.container {
+			  position: relative;
+			}
+
+			img { 
+			  width: 550px;
+			  height: auto;
+			}
+
+			.nav {
+				margin: 30px;
+				margin-right: 0px;
+			}
 
 
-		@media (max-width: 1100px) {
-  			aside, article {
-   			 width: 100%;
-   			 height: auto;
-  			}
-		}
-		@font-face {
-  			font-family: "WalterTurncoat Regular";
- 			src: url("fonts/WalterTurncoat-Regular.ttf");
-		}
+
+			a {
+				overflow: hidden;
+				text-decoration: none;
+				color: #000000;
+				border: 2px solid #000000;
+				border-bottom: 0px;
+				float: right;
+				cursor: pointer;
+				padding: 15px;
+				padding-left: 25px;
+				padding-right: 25px;
+				transition: 0.3s;
+				font-size: 22px;	
+			}
+
+			a:hover {
+				background-color: antiquewhite;
+			}
+
+
+			@media (max-width: 1100px) {
+				aside, article {
+				 width: 100%;
+				 height: auto;
+				}
+			}
+			@font-face {
+				font-family: "WalterTurncoat Regular";
+				src: url("fonts/WalterTurncoat-Regular.ttf");
+			}

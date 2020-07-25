@@ -6,28 +6,39 @@
 		}
 
 		article {
+			clear: both;
 			box-sizing: border-box;
-			float: right;
 			width: 100%;
 			border: 2px solid;
-			text-align: center
+			padding-bottom: 100px;
 			
 		}
 
 
+		.welcome {
+			float: right;
+			padding-top: 50px;
+			padding-right: 15px;
+			width: 45%;
+		}
+
 		.welcome h2{
+			color:rebeccapurple;
+			font-family:"WalterTurncoat Regular";
+			text-align: center;
+		}
+
+		.welcome p {
+			font-size: 25px;
 			float: right;
 			text-align: center;
-			font-family:"WalterTurncoat Regular";
-			color:rebeccapurple;
-			padding-right: 400px;
-			padding-top: 50px;
 		}
 
 			.headshot{
 				float: left;
 				padding: 50px;
-				padding-bottom: 150px;
+				padding-bottom: 20px;
+				width: 40%;
 			}
 
 			aside {
@@ -51,7 +62,7 @@
 			}
 
 
-			a {
+			.nav a {
 				overflow: hidden;
 				text-decoration: none;
 				color: #000000;
@@ -70,9 +81,29 @@
 				background-color: antiquewhite;
 			}
 
+			.resources{
+				clear: both;
+				margin-top: 90px;
+				margin-right: 80px;
+				margin-left: 80px;
+			}
+
+			.resources a { 
+				margin-left: 30px;
+				margin-right: 30px;
+				text-decoration: none;
+				color: #000000;
+				border: 2px solid #000000;
+				cursor: pointer;
+				padding: 15px;
+				padding-left: 50px;
+				padding-right: 50px;
+				transition: 0.3s;
+				font-size: 50px;
+			}
 
 			@media (max-width: 1100px) {
-				aside, article {
+				.welcome, .headshot {
 				 width: 100%;
 				 height: auto;
 				}

@@ -84,9 +84,8 @@
 
 			.resources{
 				clear: both;
-				margin: 80px;
-				
-				
+				align-items: center;
+				margin: 50px;
 			}
 
 			.resources a { 

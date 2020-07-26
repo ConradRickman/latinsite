@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body {
+			background-color: wheat
+		}
+		.container {
+		 	position: relative;
+		}
+
+		img { 
+			width: 550px;
+			height: auto;
+			}
+
+		.nav h2{
+			margin: 20px;
+			margin-bottom: 0px;
+			margin-right: 0px;
+			text-align: center;
+			overflow: hidden;
+			border: 2px solid #000000;
+			border-bottom: 0px;
+			float: right;
+			padding: 15px;
+			padding-left: 30px;
+			padding-right: 30px;
+			transition: 0.3s;
+			font-size: 30px;	
+		}
+		article {
+			clear: both;
+			border: 2px solid;
+			box-sizing: border-box;
+			width: 100%;
+		}
+		.boxes{
+			margin: 20px;
+			height: 40%;
+			border: 2px solid;
+			box-sizing: border-box;
+		}
+		.boxes p{
+			float: left;
+			width: 60%;
+			margin: 30px;
+			padding: 40px;
+			padding-top: 100px;
+			font-size: 30px;
+			text-align: center;
+		}
+		.boxes img{
+			float: right;
+			width: 20%;
+			margin: 40px;
+			border: 2px solid;
+		}
+		.pages{
+				clear: both;
+				margin: 30px;
+				padding-left: 50px;
+				padding-right: 50px;
+		}
+
+		.pages a { 
+				text-align: center;
+				float: none;
+				display: inline-block;
+				margin: 30px;
+				text-decoration: none;
+				color: #000000;
+				border: 2px solid #000000;
+				cursor: pointer;
+				padding: 15px;
+				padding-left: 50px;
+				padding-right: 50px;
+				transition: 0.3s;
+				font-size: 50px;
+			}
+
+			@media (max-width: 1100px) {
+				.pages, .boxes {
+				 width: 100%;
+				 height: auto;
+				}
+			}
+			@font-face {
+				font-family: "WalterTurncoat Regular";
+				src: url("fonts/WalterTurncoat-Regular.ttf");
+			}

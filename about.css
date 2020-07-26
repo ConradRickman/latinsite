@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body {
+			background-color: wheat
+		}
+
+		article {
+			clear: both;
+			box-sizing: border-box;
+			height: 650px;
+			border: 2px solid;
+			padding: 20px;
+			
+		}
+
+
+		.welcome {
+			float: right;
+			padding: 20px;
+			width: 40%;
+		}
+
+		.welcome h2{
+			color:rebeccapurple;
+			font-family:"WalterTurncoat Regular";
+			text-align: center;
+		}
+
+		.welcome p {
+			font-size: 25px;
+			float: right;
+			text-align: center;
+		}
+			.headshot{
+				float: left;
+				padding: 20px;
+				width: 30%;
+			}
+
+			.container {
+			  position: relative;
+			}
+
+			img { 
+			  width: 550px;
+			  height: auto;
+			}
+
+
+		.nav h2{
+			margin: 20px;
+			margin-bottom: 0px;
+			margin-right: 0px;
+			text-align: center;
+			border: 2px solid #000000;
+			border-bottom: 0px;
+			float: right;
+			padding: 15px;
+			padding-left: 30px;
+			padding-right: 30px;
+			transition: 0.3s;
+			font-size: 30px;	
+		}
+
+
+			@media (max-width: 1100px) {
+				.welcome, .headshot {
+				 width: 100%;
+				 height: auto;
+				}
+			}
+			@font-face {
+				font-family: "WalterTurncoat Regular";
+				src: url("fonts/WalterTurncoat-Regular.ttf");
+			}

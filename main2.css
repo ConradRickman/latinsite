@@ -18,7 +18,6 @@
 			margin-bottom: 0px;
 			margin-right: 0px;
 			text-align: center;
-			overflow: hidden;
 			border: 2px solid #000000;
 			border-bottom: 0px;
 			float: right;
@@ -35,7 +34,7 @@
 			width: 100%;
 		}
 		.boxes{
-			clear: both;
+			float: none;
 			height: 300px;
 			margin: 20px;
 			border: 2px solid;

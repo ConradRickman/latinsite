@@ -35,7 +35,7 @@
 		}
 		.boxes{
 			float: none;
-			height: 300px;
+			height: 250px;
 			margin: 20px;
 			border: 2px solid;
 			box-sizing: border-box;
@@ -43,16 +43,17 @@
 		.boxes p{
 			float: left;
 			width: 60%;
-			margin: 20px;
-			padding: 40px;
-			padding-top: 100px;
-			font-size: 30px;
+			margin: 10px;
+			padding: 20px;
+			padding-top: 80px;
+			font-size: 25px;
 			text-align: center;
 		}
 		.boxes img{
 			float: right;
-			width: 20%;
-			margin: 30px;
+			width: 15%;
+			margin: 20px;
+			margin-right: 40px;
 			border: 2px solid;
 		}
 		.pages{

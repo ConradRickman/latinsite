@@ -12,6 +12,9 @@
 			width: 550px;
 			height: auto;
 			}
+		a.one:hover{
+			background-color: wheat
+		}
 
 		.nav h2{
 			margin: 20px;

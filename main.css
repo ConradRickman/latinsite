@@ -43,11 +43,13 @@
 			.container {
 			  position: relative;
 			}
+			
 
 			img { 
 			  width: 550px;
 			  height: auto;
 			}
+						
 
 			.nav {
 				margin: 30px;
@@ -71,7 +73,7 @@
 				font-size: 22px;	
 			}
 
-			a:hover {
+			a.two:hover {
 				background-color: antiquewhite;
 			}
 

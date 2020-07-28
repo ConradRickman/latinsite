@@ -21,7 +21,36 @@
 	<meta name="imgmsapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<title>Language</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			  dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+		</script>
+	<title>Gallery</title>
 </head>
 
 <body>
@@ -29,19 +58,55 @@
   		<a class="one" href="index.html"><img src="images/logofinal.png" alt="logo"></a>
 	</div>
 	<div class="nav"> 
-		<h2>Language</h2>
+		<h2>Gallery</h2>
 	</div>
 	<article>
 		<div class="boxes">
-			<p>Intro to Latin Language and Summary of Resources</p>
+			<p>Summary of Resources</p>
 
-			<img src="images/tablet.png" alt="photo of a stone tablet with Latin words">
+			<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 3</div>
+			  <img src="images/tablet.png" style="width:30%" alt="photo of a stone tablet with Latin words">
+			  <div class="text">Stone Tablet</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="images/bulla.png" style="width:30%" alt="photo of a bulla, a golden medalian worn by children">
+			  <div class="text">Bulla</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 3</div>
+			  <img src="images/column.png" style="width:30%" alt="photo of a Corinthian column">
+			  <div class="text">Corinthian Column</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+			<div class="pages">
+				<a id="art" href="language.html">Art</a>
+				<a href="language.html">Domestic Artifacts</a>
+				<br>
+				<br>
+				<br>
+				<br>
+				<a href="language.html">Weapons</a>
+				<a id="architecture" href="language.html">Architecture</a>
+			</div>
 		</div>
-		<div class="pages">
-			<a href="language.html">Grammar</a>
-			<a href="language.html">Lessons</a>
-			<a href="language.html">Texts</a>
-		</div>
+
 	</article>
 </body>
 </html>

@@ -92,7 +92,7 @@
 		#panel {
 		  padding: 10px;
 		  display: none;
-		  width: 230px;
+		  width: 200px;
 		  margin-right: 120px;
 		  margin-top: -30px; 
 		  clear: right;
@@ -100,7 +100,7 @@
 		  padding-top: 5px;
 		  padding-bottom: 5px;
 		  text-align: center;
-		  font-size: 18px;
+		  font-size: 15px;
 		  background-color: rebeccapurple;
 		  border: solid 2px black;
 		  border-top: 0px;

@@ -4,13 +4,21 @@
 	body {
 			background-color: wheat
 		}
-
+		.border{
+			padding: 10px;
+			margin-bottom: 5px;
+			background-image: url("images/border.png");
+			background-repeat: repeat-x;
+			background-position: bottom
+			
+		}
 		article {
 			clear: both;
 			box-sizing: border-box;
 			height: 650px;
 			border: 2px solid rebeccapurple;
 			padding: 20px;
+			margin-bottom: 20px;
 			
 		}
 

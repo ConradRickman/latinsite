@@ -10,6 +10,7 @@
 			box-sizing: border-box;
 			width: 100%;
 			border: 2px solid rebeccapurple;
+			margin-bottom: 20px;
 			
 		}
 
@@ -39,7 +40,14 @@
 				padding: 50px;
 				width: 40%;
 			}
-
+		.border{
+			padding: 10px;
+			margin-bottom: 5px;
+			background-image: url("images/border.png");
+			background-repeat: repeat-x;
+			background-position: bottom
+			
+		}
 			.container {
 			  position: relative;
 			}

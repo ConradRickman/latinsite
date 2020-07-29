@@ -21,7 +21,7 @@
 			margin-bottom: 0px;
 			margin-right: 0px;
 			text-align: center;
-			border: 2px solid #000000;
+			border: 2px solid rebeccapurple;
 			border-bottom: 0px;
 			float: right;
 			padding: 15px;
@@ -32,7 +32,7 @@
 		}
 		article {
 			clear: both;
-			border: 2px solid;
+			border: 2px solid rebeccapurple;
 			box-sizing: border-box;
 			width: 100%;
 			margin-top: 20px;
@@ -72,7 +72,7 @@
 			margin: 30px;
 			margin-right: 120px;
 			margin-top: 50px;
-			border: 2px solid;
+			border: 2px solid rebeccapurple;
 		}
 		#flip {
 		  width: 260px;
@@ -84,8 +84,8 @@
 		  padding-bottom: 5px;
 		  text-align: center;
 		  font-size: 18px;
-		  background-color: rebeccapurple;
-		  border: solid 2px black;
+		  background-color: goldenrod;
+		  border: solid 2px rebeccapurple;
 		  border-top: 0px;
 		}
 
@@ -101,8 +101,8 @@
 		  padding-bottom: 5px;
 		  text-align: center;
 		  font-size: 15px;
-		  background-color: rebeccapurple;
-		  border: solid 2px black;
+		  background-color: goldenrod;
+		  border: solid 2px rebeccapurple;
 		  border-top: 0px;
 		}
 		.pages{
@@ -117,7 +117,7 @@
 				margin: 20px;
 				text-decoration: none;
 				color: #000000;
-				border: 2px solid #000000;
+				border: 2px solid rebeccapurple;
 				cursor: pointer;
 				padding: 15px;
 				transition: 0.3s;

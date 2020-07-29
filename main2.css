@@ -21,7 +21,7 @@
 			margin-bottom: 0px;
 			margin-right: 0px;
 			text-align: center;
-			border: 2px solid #000000;
+			border: 2px solid rebeccapurple;
 			border-bottom: 0px;
 			float: right;
 			padding: 15px;
@@ -32,7 +32,7 @@
 		}
 		article {
 			clear: both;
-			border: 2px solid;
+			border: 2px solid rebeccapurple;
 			box-sizing: border-box;
 			width: 100%;
 			margin-top: 20px;
@@ -44,7 +44,7 @@
 			float: none;
 			height: 300px;
 			margin: 20px;
-			border: 2px solid;
+			border: 2px solid rebeccapurple;
 			box-sizing: border-box;
 		}
 		.boxes p{
@@ -61,7 +61,7 @@
 			width: 200px;
 			margin: 20px;
 			margin-right: 30px;
-			border: 2px solid;
+			border: 2px solid rebeccapurple;
 		}
 		.pages{
 				clear: both;
@@ -76,7 +76,7 @@
 				margin: 40px;
 				text-decoration: none;
 				color: #000000;
-				border: 2px solid #000000;
+				border: 2px solid rebeccapurple;
 				cursor: pointer;
 				padding: 15px;
 				padding-left: 50px;

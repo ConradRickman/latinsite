@@ -9,7 +9,7 @@
 			clear: both;
 			box-sizing: border-box;
 			width: 100%;
-			border: 2px solid;
+			border: 2px solid rebeccapurple;
 			
 		}
 
@@ -62,8 +62,8 @@
 				overflow: hidden;
 				text-decoration: none;
 				color: #000000;
-				border: 2px solid #000000;
-				border-bottom: 0px;
+				border: 2px solid rebeccapurple;
+				border-bottom: 0px ;
 				float: right;
 				cursor: pointer;
 				padding: 15px;
@@ -93,7 +93,7 @@
 				margin: 30px;
 				text-decoration: none;
 				color: #000000;
-				border: 2px solid #000000;
+				border: 2px solid rebeccapurple;
 				cursor: pointer;
 				padding: 15px;
 				padding-left: 50px;

@@ -79,9 +79,10 @@
 
 			.resources{
 				clear: both;
-				margin: 40px;
+				display: inline-block;
+				margin: 20px;
 				margin-top: 10;
-				padding-left: 80px;
+				padding-left: 100px;
 				padding-right: 40px;
 			}
 

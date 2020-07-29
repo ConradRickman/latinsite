@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="main3.css" type="text/css" rel="stylesheet">
+	<link href="main4.css" type="text/css" rel="stylesheet">
 	<link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
@@ -22,10 +22,12 @@
 	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script>
+		<script> 
 			$(document).ready(function(){
-			
-		});
+			  $("#flip").click(function(){
+				$("#panel").slideDown("slow");
+			  });
+			});
 		</script>
 	<title>Gallery</title>
 </head>
@@ -39,17 +41,23 @@
 	</div>
 	<article>
 		<div class="boxes">
-			<p>Summary of Resources</p>
-
+			<img src="images/marcusaurilius.png" alt="A bronze equestrian statue of Emperor Marcus Aurelius">
+			<div>
+			<h3>Summary of Resources</h3>
+			<p>The photos are seporated into four catogories. To learn more about any artifact you see, click panel below it.</p>
+			</div>
+			<div id="flip">More Info</div>
+			<div id="panel">Equestrian Statue of Marcus Aurelius ca. 175 AD. Bronze, over life-size (nearly 14 ft tall)ca.  Held in the Capitoline Museum, Rome. <a href="https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_statue.JPG"> Photo by J. van Rooden</a> For further reading, <a href="https://www.khanacademy.org/humanities/ancient-art-civilizations/roman/middle-empire/a/equestrian-sculpture-of-marcus-aurelius"> click here.</a></div>
+			
 			<div class="pages">
-				<a id="art" href="language.html">Art</a>
-				<a href="language.html">Domestic Artifacts</a>
+				<a id="art" href="gallery.html">Art</a>
+				<a href="gallery.html">Domestic Artifacts</a>
 				<br>
 				<br>
 				<br>
 				<br>
-				<a href="language.html">Weapons</a>
-				<a id="architecture" href="language.html">Architecture</a>
+				<a href="gallery.html">Weapons</a>
+				<a id="architecture" href="gallery.html">Architecture</a>
 			</div>
 		</div>
 

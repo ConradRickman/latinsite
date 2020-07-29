@@ -42,9 +42,9 @@
 		}
 		.boxes{
 			float: none;
-			height: 400px;
+			height: 500px;
 			margin: 20px;
-			padding-bottom: 100px;
+			padding-bottom: 20px;
 
 		}
 		.boxes h3{
@@ -62,7 +62,7 @@
 			width: 40%;
 			text-align: center;
 			margin: 10px;
-			margin-bottom: 50px;
+			margin-bottom: 120px;
 			padding: 20px;
 			font-size: 18px;
 		}
@@ -90,14 +90,13 @@
 		}
 
 		#panel {
-		  padding: 10px;
+		  padding: 5px;
 		  display: none;
 		}
 		.pages{
-				float:left;
 				width: 40%;
 				margin: 10px;
-				margin-top: 20px;
+				margin-top: 80px;
 				padding-left: 50px;
 		}
 

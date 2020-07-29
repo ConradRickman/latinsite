@@ -100,7 +100,7 @@
 		}
 
 		#panel {
-		  
+		  display: none;
 		  padding: 10px;
 		  width: 240px;
 		  margin-right: 120px;

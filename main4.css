@@ -68,14 +68,14 @@
 		}
 		.boxes img{
 			float: right;
-			width: 250px;
+			width: 260px;
 			margin: 30px;
 			margin-right: 120px;
 			margin-top: 50px;
 			border: 2px solid;
 		}
 		#flip {
-		  width: 250px;
+		  width: 260px;
 		  margin-right: 120px;
 		  margin-top: -30px; 
 		  clear: right;

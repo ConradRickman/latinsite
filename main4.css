@@ -74,7 +74,7 @@
 			margin-top: 50px;
 			border: 2px solid;
 		}
-		#panel, #flip {
+		#flip {
 		  width: 250px;
 		  margin-right: 120px;
 		  margin-top: -30px; 
@@ -90,8 +90,20 @@
 		}
 
 		#panel {
-		  padding: 5px;
+		  padding: 10px;
 		  display: none;
+		  width: 240px;
+		  margin-right: 120px;
+		  margin-top: -30px; 
+		  clear: right;
+		  float: right;
+		  padding-top: 5px;
+		  padding-bottom: 5px;
+		  text-align: center;
+		  font-size: 18px;
+		  background-color: rebeccapurple;
+		  border: solid 2px black;
+		  border-top: 0px;
 		}
 		.pages{
 				width: 40%;

@@ -91,8 +91,9 @@
 
 		#panel {
 		  padding: 10px;
+		  margin-top: -30;
 		  display: none;
-		  width: 230px;
+		  width: 240px;
 		  margin-right: 120px;
 		  margin-top: -30px; 
 		  clear: right;
